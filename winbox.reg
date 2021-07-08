@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Winbox]
+@="URL:Winbox_Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\Winbox\DefaultIcon]
+@="C:\\winbox.exe"
+
+[HKEY_CLASSES_ROOT\Winbox\shell]
+
+[HKEY_CLASSES_ROOT\Winbox\shell\open]
+
+[HKEY_CLASSES_ROOT\Winbox\shell\open\command]
+@="C:\\winbox.bat \"%1\" youruser yourpassword"
